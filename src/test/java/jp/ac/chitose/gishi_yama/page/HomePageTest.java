@@ -1,4 +1,4 @@
-package javado;
+package jp.ac.chitose.gishi_yama.page;
 
 import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Before;
@@ -9,10 +9,13 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import jp.ac.chitose.gishi_yama.WicketApplication;
+import jp.ac.chitose.gishi_yama.page.HomePage;
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = WicketApplication.class)
 @WebAppConfiguration
-public class TestHomePage {
+public class HomePageTest {
 
   private WicketTester tester;
 

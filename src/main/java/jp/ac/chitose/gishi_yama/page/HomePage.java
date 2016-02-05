@@ -1,4 +1,4 @@
-package javado;
+package jp.ac.chitose.gishi_yama.page;
 
 import java.util.Collections;
 import java.util.List;
