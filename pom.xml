@@ -6,18 +6,17 @@
   <artifactId>wicket-springboot-startar-sample</artifactId>
   <packaging>jar</packaging>
   <name>wicket-springboot-startar-sample</name>
-  <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
 
   <properties>
     <maven.deploy.skip>true</maven.deploy.skip>
-    <startar.version>0.0.4</startar.version>
+    <java.version>1.8</java.version>
   </properties>
 
   <parent>
     <groupId>com.giffing.wicket.spring.boot.starter</groupId>
     <artifactId>wicket-spring-boot-starter-parent</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.8</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -25,12 +24,7 @@
     <dependency>
       <groupId>com.giffing.wicket.spring.boot.starter</groupId>
       <artifactId>wicket-spring-boot-starter</artifactId>
-      <version>${startar.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.giffing.wicket.spring.boot.starter</groupId>
-      <artifactId>wicket-spring-boot-context</artifactId>
-      <version>${startar.version}</version>
+      <version>${parent.version}</version>
     </dependency>
     <dependency>
       <groupId>de.agilecoders.wicket.webjars</groupId>
